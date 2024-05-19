@@ -4,7 +4,7 @@ with import <nixpkgs> { };
 let
   pythonPackages = python311Packages;
 in pkgs.mkShell rec {
-  name = "tensorflowEnv";
+  name = "PAO";
   buildInputs = [
     pythonPackages.python
     pythonPackages.matplotlib
