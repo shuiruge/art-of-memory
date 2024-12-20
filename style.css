@@ -15,16 +15,19 @@
 .toc-list li {
     padding: 0.3em;
 }
-
 body {
+    font-family: Source Han Serif, serif;
     background-color: #c7edcc;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
 }
-body strong {
+strong {
     padding: 0.1em;
+}
+q, blockquote {
+    font-family: AR PL UKai CN, Source Han Serif, serif;
 }
 span.comment {
     font-size: 0.8em;
