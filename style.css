@@ -15,8 +15,12 @@
 .toc-list li {
     padding: 0.3em;
 }
+@font-face {
+    font-family: "Han Serif";
+    src: url("assets/fonts/han-serif.ttf");
+}
 body {
-    font-family: Source Han Serif, serif;
+    font-family: "Han Serif", serif;
     background-color: #c7edcc;
     max-width: 700px;
     margin-left: auto;
@@ -26,8 +30,12 @@ body {
 strong {
     padding: 0.1em;
 }
+@font-face {
+    font-family: "Han Kai";
+    src: url("assets/fonts/han-kai.ttf");
+}
 q, blockquote {
-    font-family: AR PL UKai CN, Source Han Serif, serif;
+    font-family: "Han Kai", serif;
 }
 span.comment {
     font-size: 0.8em;
